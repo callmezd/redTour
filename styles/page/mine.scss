@@ -1,0 +1,121 @@
+#mine{
+    background: #f0f0f0;
+    height: 100%;
+    .top{
+        background: white;
+        height: 606px;
+        background: #e3413c;    
+        overflow: hidden;
+        position: relative;
+        
+        b{  
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            width: 150px;
+            display: block;
+            color: white;
+            font-weight: normal;
+            font-size: 38px;
+            border: 1px solid white{
+                radius: 20px;
+            }
+        }
+        .userinfo{
+            height: 264px;
+            width: 264px;
+            border-radius: 132px;
+            background: #ffffff;
+            margin:  119px auto 0;
+        }
+        span{
+            text-align: center;
+            margin:  20px auto 0;
+            display: block;
+            color: white;
+            width: 150px;
+        }
+    }
+    .mid{
+        background: white;
+        height: 184px;
+        overflow: hidden;
+        width: 100%;
+       
+        div{
+            float: left;
+            padding:0 106px ;
+            i,span{
+                display: block;
+            }
+            i{
+                margin-top: 36px; 
+                font-size: 60px !important;
+                text-align: center;
+            }
+            span{
+                font-size: 36px;
+            }
+        }
+        div:nth-of-type(1) i{
+            color: #f9c62c;
+        }
+        div:nth-of-type(2) i{
+            color: #07c58d;
+        }
+        div:nth-of-type(3) i{
+            color: #22abd8;
+        }
+        .shu{
+            margin-top:52px;     
+            width: 1px;
+            height: 80px;
+            float: left;
+            background: #cccccc;
+            display: block;
+        }
+    }
+
+    .bot{
+        margin-top: 30px;
+        overflow: hidden;
+        div{
+            height: 117px;
+            line-height: 117px;
+            margin: 2px 0;
+            background: white;
+           a{
+               color:#595959;
+           }
+            .icon-jiantou{
+                transform:rotate(180deg) !important;
+                display: inline-block;               
+            }
+            i{
+                font-size: 52px;
+                color:#595959;
+            }
+            span{
+                float: left;
+                font-size: 36px;
+                margin-left: 30px;
+                color: #595959;
+                
+            }
+            i:nth-of-type(1){
+                float: left;
+                margin-left: 48px;
+            }
+            i:nth-of-type(2){
+                float: right;
+                margin-right: 60px;
+            }
+        }
+        .mtop{
+            margin-top: 30px;
+        }
+    }
+}

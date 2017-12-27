@@ -1,0 +1,60 @@
+#detail{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .main{
+        flex: 1;
+        overflow: auto;
+        h3{
+            text-align: center;    
+        }
+        p{
+            width: 100%;
+                img{
+                    margin:20px 90px 0;
+                    width: 900px !important;
+                    height: auto !important;
+                }
+        }
+        
+    }
+    .dfoot,.dhead{
+        height: 104px;
+    }
+    .dhead{
+        background: #e73e39;
+        i{
+            margin-left:48px;
+            font-size: 48px !important;
+            color: white;
+            
+            line-height: 104px;
+            height: 104px;
+            display:block;
+        }
+    }
+    .dfoot{
+        border-top: 1px solid #d1d1d1;
+        .right{
+            width: 300px;
+            float: right;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            i{
+                float: left;
+                font-size: 30px !important;
+                padding: 0 10px ;
+                color: #cccccc;
+                font-size: 48px !important;
+                line-height: 104px;
+                height: 104px;
+                display:block;
+            }
+            .icon-20151209tubiaolianxizhuanhuan22{
+                color: #e73e39;
+            }
+        }
+    }
+}

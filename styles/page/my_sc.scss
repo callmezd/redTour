@@ -1,0 +1,36 @@
+.my_sc{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    .top{
+        height: 131px;
+        line-height: 131px;
+        text-align: center;
+        font-size: 40px;
+        background: #e73f39;
+        color: white;
+        i{  
+            position: absolute;
+            top: 0;
+            left:48px;
+            font-size: 48px !important;
+            color: white;
+            line-height: 131px;
+            height: 131px;
+        }
+    } 
+    .main{
+        flex: 1;
+        overflow: auto;        
+        a{
+            color: #595959;
+            li{
+                padding: 20px 50px;
+                width: 100%;
+                box-sizing: border-box;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }   
+}

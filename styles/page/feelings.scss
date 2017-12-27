@@ -1,0 +1,58 @@
+#feelings{
+        width: 100%;
+        padding: 20px 0;
+        .botbox{
+            background: white;
+            padding: 20px;
+            height: 260px;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ccc; 
+            .right{
+                width: 297px;
+                height: 218px;
+                box-sizing: border-box;
+                border: 1px solid ;
+                float: left;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }   
+            .left{
+                width: 700px;
+                float: left;
+                .title{
+                    height: 140px;
+                    h3{
+                        font-size: 30px;
+                        display: block;
+                        line-height: 50px;
+                        float: left;
+                        margin-left: 28px;
+                    }
+        
+                }
+                .subinfo{
+                    width: 100%;
+                    font-size: 24px;
+                    height: 78px;
+                    color: #b6b6b6;
+                    .source{
+                        float: left;
+                        margin-left: 28px;
+                        height: 78px;
+                        line-height: 78px;
+                    
+                    }
+                    .tdate{
+                        line-height: 78px;
+                        height: 78px;
+                        
+                        float: right;
+                    }
+                }
+            }
+
+        }
+
+}

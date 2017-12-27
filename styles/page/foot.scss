@@ -1,0 +1,28 @@
+.foot{
+    height: 132px;
+    background: #e73f39;
+    .footlink{
+        height: 88px;
+        margin-top: 25px;
+        width: 25%;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        float: left;
+        i,sapn{ 
+            display: block;
+            color: white;
+        }
+        i{
+            height:47px;
+            font-size: 66px !important;
+            line-height: 47px;
+        }
+        span{
+            height:27px;
+            line-height: 27px;
+            font-size: 27px ;
+            color: white;
+        }
+    }
+}

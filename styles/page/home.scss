@@ -1,0 +1,21 @@
+#home{
+    height: 100%;
+    .nav{
+        height: 88px;
+
+        #nav{
+            box-sizing: border-box;
+            float:left;
+            width: 50%;
+            height: 88px;
+            text-align: center;
+            line-height: 88px;
+        }
+        .active{
+            color: red;
+            border-bottom:3px  solid #e73e38; 
+        }
+        
+    }
+  
+}

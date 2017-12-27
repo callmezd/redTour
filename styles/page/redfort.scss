@@ -1,0 +1,167 @@
+.redfort{
+    background: #f0f0f0;
+    .main{
+        // background: white;
+        height: 608px;
+    }
+    .tq{
+        padding:  0 60px;
+        background: white;
+        color: #eb423d;       
+        height: 86px;
+        i{
+            display: block;
+            float: left;    
+            height: 86px;
+            line-height: 86px;     
+            font-size: 55px !important;    
+        }
+        span{
+            float: left;             
+            margin-left: 27px;
+            display: block;
+            font-size: 34px;
+            height: 86px;
+            line-height: 86px;
+        }
+    }
+    .top{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        .topbox{
+            background: white;
+            overflow: hidden;
+            padding:0 0 0 42px;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ccc;    
+            height: 170px;
+            .title{
+                margin-top: 20px;
+                height: 80px;
+                i{
+                    float: left;
+                    color: #eb423d;
+                    font-size: 20px !important;
+                    height: 80px;
+                    line-height: 30px;
+                    padding-top:10px;   
+                }
+                h3{
+                    font-size: 34px;
+                    font-weight: normal;
+                    width: 923px;
+                    display: block;
+                    float: left;
+                }
+                
+            }
+            .subinfo{
+                height: 40px;
+                line-height: 40px;
+                width: 100%;
+                font-size: 26px;
+                color: #b6b6b6;
+                overflow: hidden;
+                .source{
+                    float: left;
+                    margin-left: 44px;
+                }
+                .tdate{
+                    margin-right: 42px;
+                    float: right;
+                }
+            }
+        }
+    }
+    .mid{
+        background: white;
+        height: 186px;
+        .midLink{
+            height: 88px;
+            margin-top: 55px;
+            width: 25%;
+            text-align: center;
+            text-decoration: none;
+            float: left;
+            i,sapn{ 
+                display: block;
+                color: #eb423d;
+            }
+            i{
+                height:47px;
+                font-size: 66px !important;
+                line-height: 47px;
+            }
+            span{
+                height:27px;
+                line-height: 27px;
+                font-size: 27px ;
+                color: #eb423d;
+                
+            }
+        }
+    }
+
+
+    
+    .bot{
+        width: 100%;
+        padding: 20px 0;
+        .botbox{
+            background: white;
+            padding: 20px;
+            height: 260px;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ccc; 
+            .right{
+                width: 297px;
+                height: 218px;
+                box-sizing: border-box;
+                border: 1px solid ;
+                float: left;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }   
+            .left{
+                width: 700px;
+                float: left;
+                .title{
+                    height: 140px;
+                    h3{
+                        font-size: 30px;
+                        display: block;
+                        line-height: 50px;
+                        float: left;
+                        margin-left: 28px;
+                    }
+        
+                }
+                .subinfo{
+                    width: 100%;
+                    font-size: 24px;
+                    height: 78px;
+                    color: #b6b6b6;
+                    .source{
+                        float: left;
+                        margin-left: 28px;
+                        height: 78px;
+                        line-height: 78px;
+                    
+                    }
+                    .tdate{
+                        line-height: 78px;
+                        height: 78px;
+                        
+                        float: right;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+}

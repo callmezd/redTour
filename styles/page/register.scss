@@ -1,0 +1,227 @@
+#register{
+    height: 100%;
+    width: 100%;
+    .top{
+        height: 131px;
+        line-height: 131px;
+        text-align: center;
+        font-size: 40px;
+        background: #e73f39;
+        color: white;
+        i{  
+            position: absolute;
+            top: 0;
+            left:48px;
+            font-size: 48px !important;
+            color: white;
+            line-height: 131px;
+            height: 131px;
+        }
+    }
+    .rform{
+        width: 100%;
+        label{
+            border-bottom:1px solid #dddddd; 
+            box-sizing: border-box;
+            overflow: hidden; 
+            width: 100%;
+            overflow: hidden;
+            display: block;      
+            span{
+                width: 245px;
+                height: 134px;
+                line-height: 134px;
+                font-size: 38px;
+                text-align: center;
+                display: block;
+                float: left;
+            }
+            input{
+                border: none;
+                outline: none;
+                float: left;
+                font-size: 40px;
+                box-sizing: border-box;
+                width: 835px;
+                height: 134px;
+            }
+        
+        }
+        
+    }
+
+    .btn{
+        width: 100%;
+        padding: 52px;
+        box-sizing: border-box;
+        overflow: hidden;
+        button{
+            border: none;
+            outline: none;
+            float: left;
+            font-size: 50px;
+            background: #ed443f;
+            box-sizing: border-box;
+            color: white;
+            width: 100%;
+            height: 134px;
+            
+        }
+    }
+} 
+.ant-message-notice{
+    .ant-message-notice-content{
+         .ant-message-custom-content{
+            padding: 20px;
+             i{
+                font-size: 50px;
+             }
+            span{
+                font-size: 50px;
+                
+                width: 600px;
+                display: block;
+
+            }
+        }
+      
+    }
+}
+
+#login{
+    height: 100%;
+    width: 100%;
+    .top{
+        height: 131px;
+        line-height: 131px;
+        text-align: center;
+        font-size: 40px;
+        background: #e73f39;
+        color: white;
+        i{  
+            position: absolute;
+            top: 0;
+            left:48px;
+            font-size: 48px !important;
+            color: white;
+            line-height: 131px;
+            height: 131px;
+        }
+    }
+    .rform{
+        width: 100%;
+        label{
+            border-bottom:1px solid #dddddd; 
+            box-sizing: border-box;
+            overflow: hidden; 
+            width: 100%;
+            overflow: hidden;
+            display: block;      
+            span{
+                width: 245px;
+                height: 134px;
+                line-height: 134px;
+                font-size: 38px;
+                text-align: center;
+                display: block;
+                float: left;
+            }
+            input{
+                border: none;
+                outline: none;
+                float: left;
+                font-size: 40px;
+                box-sizing: border-box;
+                width: 835px;
+                height: 134px;
+                line-height: 134px;
+            }
+        
+        }
+        
+    }
+    .btn{
+        width: 100%;
+        padding: 52px;
+        box-sizing: border-box;
+        overflow: hidden;
+        button{
+            border: none;
+            outline: none;
+            float: left;
+            font-size: 50px;
+            background: #ed443f;
+            box-sizing: border-box;
+            color: white;
+            width: 100%;
+            height: 134px;
+            
+        }
+    }
+
+    .other{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 117px;
+        .info{
+            width: 100%;
+            height: 81px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 40px;
+            span{
+                display: block;
+                width: 30%;
+                height: 3px;
+                background: #e5e5e5;
+                margin-top: 39px;
+            }
+            p{
+                height: 81px;
+                line-height: 81px;
+                
+                text-align: center;
+                width: 30%;
+                font-size: 36px;
+            }
+        }
+        .loginway{
+            height: 204px;
+            width: 100;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 163px;
+            
+            dl{
+                width: 216px;
+                display: block;
+                height: 100%;
+                dt{
+                    width: 216px;
+                    text-align: center;
+                    i{
+                        font-size: 105px !important;
+                    }
+                }
+                dd{
+                    text-align: center;
+                    color: #858c96;
+
+                }
+            }
+            dl:nth-of-type(1) dt i{
+                color: #23b9e4;
+            }
+            
+            dl:nth-of-type(2) dt i{
+                color: #f44c24;
+            }
+        }
+        .toreg{
+            height: 182px;
+            line-height: 182px;
+            text-align: right;
+            padding:0 54px 0 0;
+        }
+    }
+} 

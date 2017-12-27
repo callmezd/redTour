@@ -1,0 +1,33 @@
+
+
+@import "./commom/animation.scss";
+@import "./commom/mobile.scss";
+@import "./commom/swiper-3.3.1.min.css";
+@import './iconfont/iconfont.css';
+@import './page/app.scss';
+@import './page/foot.scss';
+@import './page/head.scss';
+@import './page/mine.scss';
+@import './page/home.scss';
+@import './page/banner.scss';
+@import './page/redfort.scss';
+@import './page/travels.scss';
+@import './page/feelings.scss';
+@import './page/detail.scss';
+@import './page/register.scss';
+@import './page/my_sc.scss';
+@import './page/aboutus.scss';
+@import './page/jd.scss';
+@import './page/food.scss';
+@import './page/way.scss';
+
+
+html,body,#app{
+    height: 100%;
+    width:100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}

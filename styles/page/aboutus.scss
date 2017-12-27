@@ -1,0 +1,80 @@
+#aboutme{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .dhead{
+        background: #e73e39;
+        i{
+            margin-left:48px;
+            font-size: 48px !important;
+            color: white;
+            
+            line-height: 104px;
+            height: 104px;
+            display:block;
+        }
+    }
+    .main{
+        width: 100%;
+        overflow: hidden;
+        flex: 1;
+        .logo{
+            overflow: hidden;
+            width: 100%;
+            margin:210px 0 0 0; 
+            i{
+                margin: 0 auto;
+                height: 211px;
+                width: 211px;
+                display: block;
+                font-size: 211px;
+                background: #dc2c2e;
+                color: white;
+                text-align: center;
+                line-height: 211px;
+                border-radius: 30px;
+            }
+        }
+        h3{
+            height: 130px;
+            width: 100%;
+            text-align: center;
+            font-family: "楷体";
+            color:#666666;
+            font-size: 100px;
+            line-height: 130px;
+        }
+        h4{
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 45px;
+            color: #595959;
+        }
+        p:nth-of-type(1){
+            padding: 0 42px;
+            font-family: "楷体";
+            
+            margin-top: 113px;
+            font-size: 40px;
+        }
+        p:nth-of-type(2){
+            margin-top: 80px;
+        }
+        p:nth-of-type(2),p:nth-of-type(3){
+            font-family: "楷体";
+            text-align: center;
+            font-size: 40px;
+        }
+        p:nth-of-type(4){
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+            width: 100%;
+        }
+        
+    }
+}
